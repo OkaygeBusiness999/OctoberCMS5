@@ -1,0 +1,13 @@
+{
+    "name": "acme/jarvis-plugin",
+    "type": "october-plugin",
+    "description": "No description provided yet...",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Jarvis\\": "plugins/acme/jarvis/"
+        }
+    }
+}
